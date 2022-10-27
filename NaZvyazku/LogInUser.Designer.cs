@@ -40,10 +40,13 @@ namespace NaZvyazku
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +66,7 @@ namespace NaZvyazku
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(330, 337);
+            this.button2.Location = new System.Drawing.Point(324, 382);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(170, 43);
             this.button2.TabIndex = 17;
@@ -75,7 +78,7 @@ namespace NaZvyazku
             this.pictureBox3.ErrorImage = null;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(240, 271);
+            this.pictureBox3.Location = new System.Drawing.Point(240, 312);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 49);
             this.pictureBox3.TabIndex = 16;
@@ -86,7 +89,7 @@ namespace NaZvyazku
             this.pictureBox4.ErrorImage = null;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.InitialImage = null;
-            this.pictureBox4.Location = new System.Drawing.Point(240, 202);
+            this.pictureBox4.Location = new System.Drawing.Point(240, 257);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 49);
             this.pictureBox4.TabIndex = 15;
@@ -94,7 +97,7 @@ namespace NaZvyazku
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(315, 271);
+            this.textBox3.Location = new System.Drawing.Point(315, 312);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(203, 39);
@@ -102,7 +105,7 @@ namespace NaZvyazku
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(315, 202);
+            this.textBox4.Location = new System.Drawing.Point(315, 257);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(203, 39);
@@ -113,7 +116,7 @@ namespace NaZvyazku
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(240, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(240, 92);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 49);
             this.pictureBox1.TabIndex = 20;
@@ -121,7 +124,7 @@ namespace NaZvyazku
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(315, 76);
+            this.textBox1.Location = new System.Drawing.Point(315, 92);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(203, 39);
@@ -132,7 +135,7 @@ namespace NaZvyazku
             this.pictureBox2.ErrorImage = null;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(240, 139);
+            this.pictureBox2.Location = new System.Drawing.Point(240, 202);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 49);
             this.pictureBox2.TabIndex = 22;
@@ -140,11 +143,30 @@ namespace NaZvyazku
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(315, 139);
+            this.textBox2.Location = new System.Drawing.Point(315, 202);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(203, 39);
             this.textBox2.TabIndex = 21;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.ErrorImage = null;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.InitialImage = null;
+            this.pictureBox5.Location = new System.Drawing.Point(240, 147);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox5.TabIndex = 24;
+            this.pictureBox5.TabStop = false;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(315, 147);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(203, 39);
+            this.textBox5.TabIndex = 23;
             // 
             // LogInUser
             // 
@@ -152,7 +174,9 @@ namespace NaZvyazku
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.BackgroundImage = global::NaZvyazku.Properties.Resources.инет1;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 470);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
@@ -169,6 +193,7 @@ namespace NaZvyazku
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +211,7 @@ namespace NaZvyazku
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
