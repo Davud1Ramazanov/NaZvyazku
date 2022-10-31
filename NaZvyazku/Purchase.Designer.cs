@@ -100,7 +100,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 38);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Придбати";
+            this.button1.Text = "Підв\'язати";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
