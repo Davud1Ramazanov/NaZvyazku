@@ -112,7 +112,7 @@ namespace NaZvyazku
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(167, 38);
             this.button4.TabIndex = 28;
-            this.button4.Text = "Про додаток";
+            this.button4.Text = "Про компанію";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox1

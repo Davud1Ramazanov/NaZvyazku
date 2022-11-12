@@ -83,6 +83,16 @@ namespace NaZvyazku.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap app {
+            get {
+                object obj = ResourceManager.GetObject("app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cards {
             get {
                 object obj = ResourceManager.GetObject("cards", resourceCulture);
@@ -226,6 +236,16 @@ namespace NaZvyazku.Properties {
         internal static System.Drawing.Bitmap инет6 {
             get {
                 object obj = ResourceManager.GetObject("инет6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap инет7 {
+            get {
+                object obj = ResourceManager.GetObject("инет7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
